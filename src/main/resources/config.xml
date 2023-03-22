@@ -17,17 +17,39 @@
     </bean>
 
     <bean id="t2" class="kr.hs.study.beans.Number" lazy-init="true">
-        <constructor-arg value="10"/>
-        <constructor-arg value="20"/>
-        <constructor-arg value="30"/>
+        <constructor-arg value="2" type="int"/>
+        <constructor-arg value="3" type="int"/>
+        <constructor-arg value="4" type="int"/>
     </bean>
 
     <bean id="t3" class="kr.hs.study.beans.Number" lazy-init="true">
-        <constructor-arg value="40"/>
-        <constructor-arg value="50"/>
+        <constructor-arg value="50" type="int"/>
+        <constructor-arg value="40" type="int" />
     </bean>
 
+    <bean id="t4" class="kr.hs.study.beans.Number" lazy-init="true">
+        <constructor-arg value="44"/>
+    </bean>
 
+    <bean id="t6" class="kr.hs.study.beans.Number" lazy-init="true">
+        <constructor-arg value="3" type="int"/>
+        <constructor-arg value="4" type="int"/>
+        <constructor-arg value="5" type="int"/>
+    </bean>
+
+    <bean id="t7" class="kr.hs.study.beans.Number" lazy-init="true">
+        <constructor-arg value="80" type="int"/>
+        <constructor-arg value="100" type="int"/>
+        <constructor-arg value="20" type="int"/>
+    </bean>
+
+    <bean id="t8" class="kr.hs.study.beans.Number" lazy-init="true">
+        <constructor-arg value="80" type="int"/>
+        <constructor-arg value="100" type="int"/>
+        <constructor-arg value="20" type="int"/>
+        <constructor-arg value="60" type="int"/>
+        <constructor-arg value="70" type="int"/>
+    </bean>
 
 
 </beans>
