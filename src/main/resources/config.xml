@@ -16,6 +16,11 @@
         <constructor-arg value="summer" index="1" />
     </bean>
 
+<!--    <bean id="t1" class="kr.hs.study.beans.Number" lazy-init="true">-->
+<!--        <property name="str1" value="spring"/>-->
+<!--        <property name="str2" value="summer"/>-->
+<!--    </bean>-->
+
     <bean id="t2" class="kr.hs.study.beans.Number" lazy-init="true">
         <constructor-arg value="2" type="int"/>
         <constructor-arg value="3" type="int"/>

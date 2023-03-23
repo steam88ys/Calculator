@@ -16,9 +16,9 @@ public class Main {
         System.out.println("평균: "+ sum/3);
 
         Number obj3 = ctx.getBean("t3", Number.class);  // 3번
-        if(obj3.getSu4() > obj3.getSu5()) System.out.println("\n1");
-        else if(obj3.getSu4() < obj3.getSu5()) System.out.println("\n0");
-        else System.out.println("\n"+obj3.getSu4()+" == "+obj3.getSu5());
+        if(obj3.getSu1() > obj3.getSu2()) System.out.println("\n1");
+        else if(obj3.getSu2() < obj3.getSu1()) System.out.println("\n0");
+        else System.out.println("\n"+obj3.getSu1()+" == "+obj3.getSu2());
 
         Number obj4 = ctx.getBean("t2", Number.class);  // 4번
         if (obj4.getSu1() % 2 == 0) {
@@ -32,7 +32,7 @@ public class Main {
         }
 
         Number obj5 = ctx.getBean("t4", Number.class);  // 5번
-        if(obj5.getSu9()/10 == obj5.getSu9()%10) System.out.println("10의 자리와 1의 자리가 같습니다.\n");
+        if(obj5.getSu1()/10 == obj5.getSu1()%10) System.out.println("10의 자리와 1의 자리가 같습니다.\n");
         else System.out.println("10의 자리와 1의 자리가 다릅니다.\n");
         
         // 6번
@@ -56,11 +56,11 @@ public class Main {
         
         // 8번
         Number obj8 = ctx.getBean("t8", Number.class);
-        a = obj8.getSu10();
-        b = obj8.getSu11();
-        c = obj8.getSu12();
-        int d = obj8.getSu13();
-        int e = obj8.getSu14();
+        a = obj8.getSu1();
+        b = obj8.getSu2();
+        c = obj8.getSu3();
+        int d = obj8.getSu4();
+        int e = obj8.getSu5();
         sum=0;
         if(a>=20 && a<=50) sum+= a;
         if(b>=20 && b<=50) sum+= b;
